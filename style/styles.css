@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ===common styles start === */
+
+/* ===common styles end === */
+
+
+/* ===header section styles start===*/
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-image: url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    margin: 30px 80px;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+.header-description {
+    color: rgb(213, 235, 251);
+    text-align: center;
+    padding: 150px 250px;
+}
+
+.header-description h1 {
+    font-size: 72px;
+}
+
+.header-description h4 {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*===header section styles end === */
+
+
+.holidayDeal {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.discount-title {
+    font-size: 88px;
+    color: #F00;
+}
+
+.holidayDeal>p {
+    font-size: 24px;
+    color: #F00;
+}
+
+.holidayDeal>h3 {
+    font-size: 48px;
+}
+
+.holidayDeal img {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 20px;
+}
