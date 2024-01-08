@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-
+    padding: 0;
 }
 
 body {
@@ -32,12 +32,14 @@ header {
     margin: 30px 80px;
     background-size: 100%;
     border-radius: 15px;
+
 }
 
 .header-description {
     color: rgb(213, 235, 251);
     text-align: center;
     padding: 150px 250px;
+
 }
 
 .header-description h1 {
@@ -80,3 +82,45 @@ header {
     height: 500px;
     margin-top: 20px;
 }
+
+
+/* Midnight party section start */
+.party-join {
+    background-image: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 70px 80px;
+    height: 600px;
+    background-size: 100%;
+    border-radius: 15px;
+    color: #ffff;
+
+}
+
+.party-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 120px;
+}
+
+
+
+.party-description>h1 {
+    font-size: 59px;
+    letter-spacing: 7.04px;
+}
+
+.party-description p {
+    font-size: 18px;
+}
+
+.party-description>button {
+    border: 0;
+    font-size: 20px;
+    margin: 25px 0 0 25px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Midnight party section end */
